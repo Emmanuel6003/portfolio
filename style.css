@@ -1,0 +1,164 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.section1{
+    position: relative;
+}
+.top-section{
+    background-image: url(Design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+.first-text{
+    color:yellow;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+.text-container{
+    padding: min(20vh, 50px) 20px;
+}
+
+.second-section {
+    width: 60%;
+    max-width: 550px; /* won't get too wide on desktop */
+    margin: 0 auto; /* centers the container */
+}
+
+.profile-image{
+    display: block;
+    border-radius: 50%;
+    margin: 100px auto;
+}
+
+.title-text{
+    font-size: 2.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:greenyellow;
+}
+
+.text{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: rgb(116, 164, 45);
+}
+
+p{
+    line-height: 1.7;
+    font-size: 1.1rem;
+    color: green;
+}
+
+.third-section, .fourth-section{
+    width: 60%;
+    max-width: 550px; /* same width for both, so texts align */
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+.fourth-section img{
+    position: absolute;
+    left: -240px; /* pulls image to the left of the text */
+    top: 0;
+    width: 200px;
+}
+
+.fifth-section {
+    width: 60%;
+    max-width: 550px; /* won't get too wide on desktop */
+    margin: 0 auto; /* centers the container */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+
+.button{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: greenyellow;
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+.button:hover{
+    background-color: #8bc34a;
+    transform: scale(1.05);
+}
+.button:active{
+    transform: scale(0.95);
+}
+
+.fifth-section > * {
+    margin-bottom: 40px;
+  }
+
+.fifth-section > p{
+text-align: center;
+}
+.fifth-section, .button{
+    text-align: center;
+}
+
+.last{
+    color:blue;
+    padding-top: 50px;
+}
+.footer-container{
+    text-align: center;
+    background-color: yellow;
+    padding: 50px 0 20px;
+}
+
+.footer-link{
+    font-size: 1.2rem;
+  margin: 10px 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width:750px){
+    img{
+        width: 200px;
+        height: 200px;
+    }
+    p{
+        font-size:16px !important ;
+    }
+    .first-text {
+        font-size: 3.5rem;
+      }
+      .first-text{
+        font-size: 35px;
+
+    }
+    .fourth-section img{
+        position: static;
+        display: block;
+        margin: 0 auto 20px auto;
+      }
+
+      .button{
+    padding: 10px;
+    background-color: greenyellow;
+    border: none;
+    margin-bottom: 50px;
+    font-size: 1rem;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+      }
+     
+}
+
