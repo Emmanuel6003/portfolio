@@ -126,6 +126,7 @@ text-align: center;
     font-size: 1.2rem;
   margin: 10px 20px;
   font-family: 'Courier New', Courier, monospace;
+    text-decoration:none;
 }
 
 @media (max-width:750px){
